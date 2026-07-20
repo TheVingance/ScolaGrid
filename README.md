@@ -46,8 +46,6 @@ npm install
 
 ### 3. Configurando o Banco de Dados (Supabase)
 
---------- JÁ ESTÁ CONFIGURADO. ---------
-
 O ScolaGrid precisa de um banco de dados para salvar os professores e os horários.
 
 1. Crie uma conta gratuita em [Supabase](https://supabase.com/).
