@@ -34,6 +34,10 @@ const Sidebar = () => {
           </NavLink>
         ))}
       </nav>
+
+      <div className="sidebar-footer">
+        <span className="sidebar-version">v1.0.0</span>
+      </div>
     </aside>
   );
 };

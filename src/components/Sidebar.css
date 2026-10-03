@@ -108,3 +108,27 @@
     padding: 0.5rem;
   }
 }
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-version {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-footer {
+    display: none;
+  }
+}
