@@ -1,4 +1,4 @@
-# ScolaGrid !📅
+# ScolaGrid 
 
 O **ScolaGrid** é um sistema moderno de gerenciamento de horários escolares construído com **React**, **Vite** e **Supabase**. Ele possui uma interface premium focada em facilidade de uso, permitindo o cadastro de disciplinas, professores e turmas, além de gerar e validar uma grade escolar inteligente que impede o choque de horários.
 
