@@ -74,4 +74,8 @@ npm run dev
 Abra o seu navegador no endereço exibido no terminal (geralmente `http://localhost:5173`) e comece a utilizar o ScolaGrid!
 
 ## 🤝 Colaboração e Contribuição
-Projeto mantido com foco em boas práticas de versionamento contínuo, revisão de código e pair programming.
+
+Contribuições, sugestões e melhorias são sempre bem-vindas!
+- Abra uma issue para relatar bugs ou sugerir novas funcionalidades.
+- Envie um Pull Request com suas alterações e boas práticas de pair programming.
+- Siga os padrões de commits convencionais (Conventional Commits).
