@@ -78,4 +78,13 @@ Abra o seu navegador no endereço exibido no terminal (geralmente `http://localh
 Contribuições, sugestões e melhorias são sempre bem-vindas!
 - Abra uma issue para relatar bugs ou sugerir novas funcionalidades.
 - Envie um Pull Request com suas alterações e boas práticas de pair programming.
-- Siga os padrões de commits convencionais (Conventional Commits).
+- Siga os padrões de commits convencionais (Conventional Commits).
+
+---
+
+## 🔍 Solução de Problemas e Compatibilidade
+
+- **Exportação de PDF/PNG:** Certifique-se de que a grade foi renderizada completamente antes de acionar a exportação. Elementos com animações ativas podem atrasar a captura via html2canvas.
+- **Conexão com Supabase:** Caso receba erro de CORS ou chave inválida, verifique se `.env.local` contém as chaves públicas sem aspas adicionais e reinicie o servidor Vite (`npm run dev`).
+- **Navegadores suportados:** Testado e recomendado nos navegadores modernos (Google Chrome, Firefox, Safari e Microsoft Edge).
+
